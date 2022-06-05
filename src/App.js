@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [question, setQuestion] = useState("");
@@ -97,7 +97,7 @@ function App() {
   }
 
   return (
-    <section className="rounded mx-auto mt-20 mb-20 p-10 w-[35rem] font-mono text-white h-[40rem] bg-[#181561]">
+    <section className="rounded mx-auto mt-20 mb-20 p-10 md:w-[35rem] w-full font-mono text-white md:h-[40rem] min-h-full bg-[#181561]">
       {!gameStarted ? (
         <button
           className="hover:text-black text-white bg-[#4f4d8e] hover:bg-[#59BFF5] mx-auto block text-4xl p-12 mt-[45%]"
@@ -115,11 +115,11 @@ function App() {
             Reset Score
           </button>
           <div className=" text-center text-xl">{question}</div>
-          <form className="flex flex-wrap  my-4 mt-0 pt-6 pb-2 text-black">
+          <form className="flex md:flex-wrap flex-col md:flex-row my-4 mt-0 pt-6 pb-2 text-black">
             {answers.map((x, ind) => {
               return (
                 <div
-                  className="block  w-1/2 text-center p-1 pt-0 my-4 "
+                  className="block w-full md:w-1/2 text-center p-1 pt-0 my-4 "
                   key={ind}
                   value={x}
                 >
