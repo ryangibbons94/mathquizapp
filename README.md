@@ -3,6 +3,8 @@ A full stack web application that serves a randomized math question from an API 
 
 **Link to project:** https://math-quiz-app.netlify.app/
 
+**Link to API used:** https://github.com/ryangibbons94/math-api
+
 ![screenshot of website](https://ryangibbons.netlify.app/assets/images/mathapp.gif)
 
 ## How It's Made:
