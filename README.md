@@ -16,5 +16,6 @@ If I had time I would add localstorage for the scorekeeping and on initial page 
 
 1. Adding a fading element that showed when points were gained or lost.
 
+So I knew that I wanted to have some sort of dynamic change to the score after each question was answered to highlight that the score had gone up or down. I had spent a morning searching for how to make this happen and settled on [this codepen](https://codepen.io/ianaya89/pen/qEqWWB) for doing the thing I wanted to do. I combined the fadeIn and fadeOut functions from this CodePen and used a setTimeOut function to make the points appear briefly and then fade out. 
 
 2. Adding and removing styles to show a user which answer choice they have selected. 
