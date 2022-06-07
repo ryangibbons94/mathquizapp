@@ -14,4 +14,7 @@ If I had time I would add localstorage for the scorekeeping and on initial page 
 
 ## Challenges Faced/Lessons Learned:
 
+1. Adding a fading element that showed when points were gained or lost.
 
+
+2. Adding and removing styles to show a user which answer choice they have selected. 
