@@ -1,7 +1,7 @@
 # Math Quiz App
 A full stack web application that serves a randomized math question from an API I built with Node.js and Express. The front end is made using React and TailwindCSS.
 
-**Link to project:** https://math-quiz-app.netlify.app/
+**Link to project:** https://math-quizz-app.netlify.app/
 
 **Link to API used:** https://github.com/ryangibbons94/math-api
 
