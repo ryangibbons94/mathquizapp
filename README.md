@@ -12,7 +12,7 @@ A full stack web application that serves a randomized math question from an API 
 **Tech used:** Node.js, Express, React, TailwindCSS
 
 ## Optimizations
-If I had time I would add localstorage for the scorekeeping and on initial page load present the user with two choices, either continue with their previous score or restart. I would also refactor the react code to put each component in its own file and importing it into the main App file.
+If I had time I would add localstorage for the scorekeeping and on initial page load present the user with two choices, either continue with their previous score or restart. I would refactor the react code to put each component in its own file and importing it into the main App file. I would also refactor the adding and removing styles to an answer when selected to use conditional classes rather than how I currently have it. 
 
 ## Challenges Faced/Lessons Learned:
 
